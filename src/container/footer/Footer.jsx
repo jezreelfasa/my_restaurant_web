@@ -1,5 +1,5 @@
 import "./Footer.css"
-import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import { FiFacebook, FiTwitter, FiLinkedin } from 'react-icons/fi';
 
 import Newsletter from "../../components/footer/Newsletter.jsx";
 import FooterOverlay from '../../components/footer/FooterOverlay';
@@ -27,9 +27,9 @@ function Footer() {
                     <p className="p__opensans">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
                     <img src={Spoon1} className="spoon__img" style={{ marginTop: 15 }} />
                     <div className="app__footer-links_icons">
-                        <FiFacebook />
-                        <FiTwitter />
-                        <FiInstagram />
+                        <a href="https://web.facebook.com/fasa.jezreel/"><FiFacebook /></a>
+                        <a href="https://twitter.com/Jezreelfasa"><FiTwitter /></a>
+                        <a href="https://www.linkedin.com/in/emmanuel-odubu-799351168/"><FiLinkedin /></a>
                     </div>
                 </div>
 
