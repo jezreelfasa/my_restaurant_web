@@ -19,7 +19,7 @@ function Footer() {
                     <h1 className="app__footer-headtext">Contact Us</h1>
                     <p className="p__opensans">12, Sabano  Street Mafoluku, Lagos State, LOS 10007, Nigeria</p>
                     <p className="p__opensans">+234 816 989 1207</p>
-                    <p className="p__opensans">+234 708 327 6390</p>
+                    <p className="p__opensans">E-mail: emmanuelfasa@gmail.com</p>
                 </div>
 
                 <div className="app__footer-links_logo">
